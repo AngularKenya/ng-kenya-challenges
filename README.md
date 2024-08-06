@@ -1,5 +1,9 @@
 # NG Kenya Challenges :computer: :sparkles:
 
+## Challenge 1 (Beginner)
+Despite having assigned a value to my `randomString`, it does not properly display on my view.
+How can I adjust my code to make the `randomString` visible in the view without changing its type? (Check `App` Component)
+
 ## Challenge Guidelines
 1. Clone the project to your local environment; PC, Laptop etc.
 2. Create a new branch off of the challenge branch in focus for example, `challenge-01` and solve the challenge. Your branch name should be in the format `[your-github-name]-challenge-01`
