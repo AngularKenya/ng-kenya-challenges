@@ -1,4 +1,4 @@
-# NgKenyaChallenges
+# Ng Kenya Challenges
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
 
@@ -22,6 +22,9 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Challenge Guidelines
+1. Clone the project to your local environment; PC, Laptop etc.
+2. Create a new branch off of the challenge branch in focus for example, `challenge-01` and solve the challenge.
+3. Upon completion of the challenge, create a PR against the challenge branch.
+4. The first successful PR (or whatever number or PR's specified per challenge), win the prize as provided by the event's organizers.
+5. Have fun :smile:
