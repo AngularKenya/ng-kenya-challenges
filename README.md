@@ -1,11 +1,11 @@
-# NG Kenya Challenges :computer:
+# NG Kenya Challenges :computer: :sparkles:
 
 ## Challenge Guidelines
 1. Clone the project to your local environment; PC, Laptop etc.
 2. Create a new branch off of the challenge branch in focus for example, `challenge-01` and solve the challenge. Your branch name should be in the format `[your-github-name]-challenge-01`
 3. Upon completion of the challenge, create a Pull Request (PR) against the challenge branch.
 4. The first successful PR (or whatever number or PR's specified per challenge), win the prize as provided by the event's organizers.
-5. You MUST be from Kenya 🇰🇪
+5. You MUST be from Kenya
 6. Have fun :smile:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
