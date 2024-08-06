@@ -8,6 +8,7 @@
 5. You MUST be from Kenya
 6. Have fun :smile:
 
+## Version Details
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
 
 ## Development server
