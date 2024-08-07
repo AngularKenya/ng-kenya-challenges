@@ -5,7 +5,7 @@ Despite having assigned a value to my `randomString`, it does not properly displ
 How can I adjust my code to make the `randomString` visible in the view without changing its type? (Check `App` Component)
 
 ## Challenge Guidelines
-1. Clone the project to your local environment; PC, Laptop etc.
+1. Fork the repo to your account.
 2. Create a new branch off of the challenge branch in focus for example, `challenge-01` and solve the challenge. Your branch name should be in the format `[your-github-name]-challenge-01`
 3. Upon completion of the challenge, create a Pull Request (PR) against the challenge branch.
 4. The first successful PR (or whatever number or PR's specified per challenge), win the prize as provided by the event's organizers.
