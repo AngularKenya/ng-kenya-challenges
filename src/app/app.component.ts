@@ -11,4 +11,9 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'ng-kenya-challenges';
 
+  // In this component, display the first 20 characters in a sequential manner. 
+  // Utilize efficient techniques such as the async pipe and various RxJS operators to handle and present the data effectively.
+
+  // 💡 Bonus: Present the data within a table format.
+
 }

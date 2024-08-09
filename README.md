@@ -1,8 +1,25 @@
 # NG Kenya Challenges :computer: :sparkles:
 
+## Instructions for Challenge 2
+Here’s a breakdown of the instructions:
+
+- **Step 1: Create a Service**
+  - Develop a service by modifying the DataService class to fetch data from the API.
+  - Ensure the service returns the first 20 characters from the API.
+
+- **Step 2: Display the Data**
+  - Integrate the service into your component and display the fetched characters; in this case the AppComponent.
+  - Explore and implement advanced techniques for injecting services into your component.
+
+- **Step 3: Use RxJS Operators**
+  - Utilize the `takeUntilDestroyed` operator to manage subscriptions and ensure proper cleanup.
+
+- **Bonus: Present in a Table**
+  - Display the data within a table format for a more structured presentation.
+
 ## Challenge Guidelines
 1. Clone the project to your local environment; PC, Laptop etc.
-2. Create a new branch off of the challenge branch in focus for example, `challenge-01` and solve the challenge. Your branch name should be in the format `[your-github-name]-challenge-01`
+2. Create a new branch off of the challenge branch in focus for example, `challenge-2` and solve the challenge. Your branch name should be in the format `[your-github-name]-challenge-2`
 3. Upon completion of the challenge, create a Pull Request (PR) against the challenge branch.
 4. The first successful PR (or whatever number or PR's specified per challenge), win the prize as provided by the event's organizers.
 5. You MUST be from Kenya
