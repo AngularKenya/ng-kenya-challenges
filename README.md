@@ -1,11 +1,12 @@
 # NG Kenya Challenges :computer: :sparkles:
 
-<<<<<<< HEAD
 ## Instructions for Challenge 2
 Here’s a breakdown of the instructions:
 
 - **Step 1: Create a Service**
-  - Develop a service by modifying the DataService class to fetch data from the API.
+  - Develop a service by modifying the DataService class to fetch data from this API. 
+    https://rickandmortyapi.com/api/character
+    
   - Ensure the service returns the first 20 characters from the API.
 
 - **Step 2: Display the Data**
@@ -21,15 +22,6 @@ Here’s a breakdown of the instructions:
 ## Challenge Guidelines
 1. Clone the project to your local environment; PC, Laptop etc.
 2. Create a new branch off of the challenge branch in focus for example, `challenge-2` and solve the challenge. Your branch name should be in the format `[your-github-name]-challenge-2`
-=======
-## Challenge 1 (Beginner)
-Despite having assigned a value to my `randomString`, it does not properly display on my view.
-How can I adjust my code to make the `randomString` visible in the view without changing its type? (Check `App` Component)
-
-## Challenge Guidelines
-1. Fork the repo to your account.
-2. Create a new branch off of the challenge branch in focus for example, `challenge-01` and solve the challenge. Your branch name should be in the format `[your-github-name]-challenge-01`
->>>>>>> challenge-01
 3. Upon completion of the challenge, create a Pull Request (PR) against the challenge branch.
 4. The first successful PR (or whatever number or PR's specified per challenge), win the prize as provided by the event's organizers.
 5. You MUST be from Kenya
