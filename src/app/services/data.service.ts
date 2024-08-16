@@ -14,8 +14,8 @@ export class DataService {
 
   getCharacters(): Observable<Character[]> {
     return this.http.get<ApiResponse>(`${this.apiUrl}?page=1`).pipe(
-      map(response => response.results.slice(0, 20)),  // Extract the first 20 characters
-      catchError(this.handleError)  // Handle errors
+      map(response => response.results.slice(0, 20)),  
+      catchError(this.handleError)  
     );
   }
 
