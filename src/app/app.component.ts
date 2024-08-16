@@ -1,19 +1,30 @@
-import {Component, signal} from '@angular/core';
+import { Component, DestroyRef, OnInit, inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { DataService } from './services/data.service';
+import { Character } from './model/character.model';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, CommonModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'ng-kenya-challenges';
+  characters: Character[] = [];
 
-  // In this component, display the first 20 characters in a sequential manner. 
-  // Utilize efficient techniques such as the async pipe and various RxJS operators to handle and present the data effectively.
+  private destroyRef = inject(DestroyRef); 
 
-  // 💡 Bonus: Present the data within a table format.
+  constructor(private dataService: DataService) {}
 
+  ngOnInit(): void {
+    this.dataService.getCharacters()
+      .pipe(takeUntilDestroyed(this.destroyRef)) 
+      .subscribe(data => {
+        this.characters = data;
+      });
+  }
 }
